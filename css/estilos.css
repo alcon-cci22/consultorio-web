@@ -1,0 +1,418 @@
+html {
+  font-size: 15px; }
+
+  body {
+  background: white;
+  color: #111111;
+  font-family: 'Ubuntu', sans-serif; }
+
+  .bienvenidos {
+    background: url(../Imagenes/fondo_cel.jpg) no-repeat center top;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-attachment: fixed;
+}
+
+
+/*.bienvenidos_galeria {
+  background: url(../Imagenes/fondo_hd_galeria.jpg) no-repeat center top;
+  height: 40vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-attachment:scroll;
+}*/
+
+
+.encabezado {
+    /* background: rgba(123, 193, 68, 0.88); */
+    background: rgba(255, 255, 255, 0.88);
+    padding: .8rem 0 ;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.encabezado .container {
+    display: flex;
+    justify-content: center;
+
+}
+.encabezado .logo img {
+    width: 180px;
+    height: auto;
+
+}
+.encabezado #bm {
+    width: 140px;
+    height: auto;
+
+}
+
+/*----------------------------Menu Navegacion--------------------------------*/
+
+
+.boton-menu {
+    border: 0;
+    font-size: 1.5rem;
+    margin: 0;
+    padding: 0 .3rem;
+    background: transparent;
+    color: 	 #080fc7;
+    text-decoration: none;
+}
+
+
+.boton-menu:focus {
+    outline: 0;
+
+}
+
+
+.boton-menu:hover {
+    color: black;
+
+}
+
+
+#menu-principal {
+    flex: 0 1 100%;
+}
+#menu-principal ul {
+    margin: 1rem 0;
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+#menu-principal ul a {
+    display: block;
+    padding: .9rem 0;
+    color: black;
+    text-transform: uppercase;
+    border-top: 1px solid  #080fc7;
+    text-decoration: none;
+
+}
+#menu-principal ul a:hover {
+    color:  #080fc7;
+    background-color: white;
+}
+#menu-principal ul li.active a {
+    color:  #080fc7;
+    background-color: white;
+}
+
+.btn-info {
+    background:  #83ecd5;
+    color: white;
+    border-color: transparent;
+    margin-top: 1rem;
+    transition: all .8s ease;
+}
+
+.btn-info:hover {
+    color: white;
+}
+.texto-encabezado {
+    flex: 1 1 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flecha-bajada a {
+    display: inline-block;
+    padding-bottom: 2rem;
+    font-size: 3rem;
+    animation: flecha-animada 1s ease-in-out infinite;
+}
+@keyframes flecha-animada {
+    from {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(9px);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+
+
+.banner_h {
+    background: #83ecd5;
+    color: white;
+
+}
+
+.banner_h img {
+
+    max-width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+
+
+.banner_galeria {
+    background: white;
+    color: #83ecd5;
+
+}
+
+.banner_galeria img {
+
+    max-width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+/*---------------------------------------- limite ---------------------------- */
+.tu-mejoreleccion h2 span{
+    color:  #32c595;
+}
+
+
+
+.tu-mejoreleccion ul,
+.tu-mejoreleccion li{
+
+    list-style: none;
+}
+
+
+.tu-mejoreleccion ul li .fas{
+
+    font-size: 2.3rem;
+    border-radius: 50%;
+
+    width: 4.5rem;
+    height: 4.5rem;
+    line-height: 4.5rem;
+    color: white;
+
+}
+
+.tu-mejoreleccion ul li .contenedor-eleccion h4{
+
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: .8rem;
+
+}
+
+.tu-mejoreleccion ul li {
+
+    min-height: 9rem;
+
+
+}
+
+
+
+.pie-depagina{
+
+    background: black;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    font-size: .8rem;
+
+
+}
+
+
+
+.pie-depagina .redes{
+  
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+
+}
+
+
+
+.pie-depagina .redes a{
+
+  
+    color: white;
+    font-size: 1.5rem;
+    margin: 0 1rem;
+    opacity: .4;
+    transition: all .5s ease;
+
+}
+
+.pie-depagina .redes a:hover{
+  opacity: 1;
+  color: #83ecd5;
+
+}
+
+
+.pie-depagina hr{
+
+    background: #83ecd5;
+
+
+
+}
+
+.pie-depagina .datos-contacto{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+
+
+}
+
+    .pie-depagina .datos-contacto div{
+
+     padding: 1rem;
+
+
+}
+
+
+
+
+.pie-depagina ul li .fab
+{
+    border-radius: 50%;
+    background-color: white;
+    width: 3rem;
+    height: 3rem;
+    line-height: 3rem;
+    color: black;
+
+}
+
+.ir_arriba{
+
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    font-size: 3rem;
+    color: #83ecd5;
+    text-decoration: none;
+    z-index: 999;
+    transition: all .5s ease;
+
+}
+
+
+.ir_arriba:hover{
+
+    outline: 0;
+    text-decoration: none;
+    color:#eef51e;
+
+}
+
+.ir_arriba:focus{
+
+    outline: 0;
+    text-decoration: none;
+    color: blue;
+
+}
+
+
+/*
+=======================EMPIEZAN LAS MEDIAS QUERIES========================
+*/
+
+
+@media(min-width:768px){
+
+  .bienvenidos {
+    background: url(../Imagenes/fondo_hd.jpg) no-repeat center top;
+    background-size: cover;
+    background-attachment: fixed;
+
+}     
+    #menu-principal{
+        height: auto !important;
+        display: block;
+        flex: 0 1 auto;
+        margin-left: auto;
+        order: 1;
+
+    }
+
+     #menu-principal ul{
+         display: flex;
+         margin: 0 0 0 0;
+
+    }
+
+     #menu-principal ul li a{
+
+         padding: .8rem;
+         text-transform: capitalize;
+         margin: 0 .3rem;
+         border-top: 0px;
+        border-bottom: 2px solid transparent;
+        transition: all .5s ease;
+
+    }
+
+    #menu-principal ul li.active a{
+
+        border-bottom: 2px solid  blue;
+        color:  blue;
+
+    }
+
+    #menu-principal ul li a:hover{
+
+         border-bottom: 2px solid  #83ecd5;
+         color:  #83ecd5;
+    }
+
+
+    .pie-depagina .datos-contacto{
+
+  flex-direction: row;
+
+  }
+
+  .pagina-login .bienvenidos_login .entrada{
+      background: #83ecd5;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 10rem;
+
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
